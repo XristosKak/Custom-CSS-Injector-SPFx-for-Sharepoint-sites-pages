@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c6e0f4a3-8d5f-6c1e-0b9d-3f4e5a6b7c8d",
+  "alias": "CustomCssInjectorWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Custom CSS Injector" },
+      "description": {
+        "default": "Injects scoped CSS into the page head (one style element per web part instance, no duplicate tags)."
+      },
+      "officeFabricIconFontName": "Color",
+      "properties": {
+        "customCss": "",
+        "hideWebPartUi": false
+      }
+    }
+  ]
+}

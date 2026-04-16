@@ -1,0 +1,34 @@
+# Custom Non-Commercial License (v1.0)
+
+Copyright (c) 2026 Christos Kakoulakis
+
+## 1. Permission
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to:
+
+* use the Software for personal and educational purposes
+* share the Software
+
+## 2. Restrictions
+
+The following activities are strictly prohibited without prior written permission from the author:
+
+* Commercial use of the Software
+* Selling, sublicensing, or distributing the Software as part of a paid product or service
+* Using the Software in any product or service that generates revenue
+* Copy and Modify the Software
+
+## 3. Commercial Licensing
+
+If you wish to use this Software for commercial purposes, you must obtain a separate commercial license.
+
+For collaborations, contact: contact@christos-kakoulakis.gr
+Website: christos-kakoulakis.gr
+
+## 4. Attribution
+
+You must give appropriate credit to the original author when using or distributing this Software.
+
+## 5. Disclaimer
+
+The Software is provided "as is", without warranty of any kind, express or implied. The author shall not be held liable for any damages arising from the use of the Software.

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-css-injector-client-side-solution",
+    "id": "a4c8f2e1-6b3d-4a9c-8e7f-1d2c3b4a5e6f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Web part that injects scoped custom CSS on the page."
+      },
+      "longDescription": {
+        "default": "CustomCssInjector adds a style element in the head, sets data-custom-css on the body for scoping, and supports optional CSS from the property pane."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-css-injector Feature",
+        "description": "Deploys the CustomCssInjector web part.",
+        "id": "b5d9e3f2-7c4e-5b0d-9f8a-2e3d4c5b6f7a",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-css-injector.sppkg"
+  }
+}

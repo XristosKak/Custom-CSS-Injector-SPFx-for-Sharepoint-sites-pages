@@ -1,0 +1,8 @@
+node_modules
+temp
+dist
+lib
+release
+*.sppkg
+*.log
+.DS_Store
